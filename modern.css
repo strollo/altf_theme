@@ -6,7 +6,8 @@ body {
 	font-size: 100%;
 	font-family: sans-serif;
 	height: 95%;
-	background-color: #e2e2e2;
+	background-color: #444;
+	color: white;
 	/* margin: 10px; */
 }
 select, input {
@@ -20,14 +21,30 @@ h2 {
 	margin-bottom: 20px;
 	/* background-color: lightsteelblue;  */
 	text-align:center;
+	color: white;
+	padding-top: 8px;
+	font-family: serif; font-variant: small-caps; font-size: 18px;
+}
+
+a {
+	color: #737373;
+}
+
+.nodecor a {
+	color: #afd2ff;
 }
 
 .title, .warn, .error {
 	text-align: center;
 } 
 .warn, .blue {
-	color: blue;
+	color: #afd2ff;
 }
+
+.warn a {
+	color: #ffffff;
+}
+
 .green {
 	color: green;
 }
@@ -49,7 +66,7 @@ th, td {
 
 .menu {
 	font-weight: bold;
-	background-color: #f6f6f6;
+	background-color: #ffffff;
 	color: #333;
 }
 .menu a, .menu label {
@@ -219,6 +236,7 @@ fieldset {
 	/* box-shadow: 0 0 20px 1px black; */
 	background-color: white;
 	border-radius: 10px;
+	color: black;
 }
 
 legend {
@@ -246,6 +264,7 @@ form {
 	padding-bottom: 20px;
 	padding-left: 10px;
 	box-shadow: 0 0 20px 1px black;	
+	color: black;
 }
 
 
