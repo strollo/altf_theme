@@ -30,8 +30,19 @@ a {
 	color: #737373;
 }
 
-.nodecor a {
-	color: #afd2ff;
+a.nodecor {
+    background-color: #737373;
+    border-radius: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: white;
+	border: 1px solid #737373;
+}
+
+a.nodecor:hover {
+	background-color: #e2e2e2;
+	color: black;
+	border: 1px solid #ccc;
 }
 
 .title, .warn, .error {
