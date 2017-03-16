@@ -51,7 +51,7 @@ function menuSetup(where, display) {
 	frm.writeln('<div class="vertical_nav">')
 	frm.writeln('<ul id="js-menu" class="menu">')
 
-	frm.writeln('<span class="menu--label" style="background-color: #e2e2e2; text-align:center; box-shadow: 0 0 20px 1px black;	 ">Alt-F Menu</span>')
+	frm.writeln('<span class="menu--label" style="background-color: #444; color: white; text-align:center; box-shadow: 0 0 20px 1px black; font-family: serif; font-variant: small-caps; font-size: 18px;	 ">Alt-F Menu</span>')
 	
 	while (obj = menu.shift()) {		
 		if (typeof(obj.url) != "undefined") {
